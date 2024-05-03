@@ -15,7 +15,7 @@ html, body {
 main {
   margin: auto;
   width: 50%;
-  padding: 20px;
+  padding: 0px;
 }
 
 main > h1 {
@@ -45,4 +45,25 @@ main > h1 {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+}
+
+.titleTop{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 7.5px;
+}
+
+.titleMain{
+  color: var(--Mtbeds-Green, #B6DDBD);
+  text-align: center;
+  font-family: "Ivy Mode";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
