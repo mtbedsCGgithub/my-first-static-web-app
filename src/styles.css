@@ -31,3 +31,15 @@ main > h1 {
   display: table;
   clear: both;
 }
+
+.middleColumn{
+  background: rgba(8, 12, 9, 0.70);
+}
+
+
+.mulish-Mtbeds {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
