@@ -5,6 +5,15 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'ivy_modesemibold';
+  src: url('ivymode-semibold-webfont.woff2') format('woff2'),
+       url('ivymode-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 html, body {
   margin: 0;
   border: 0;
@@ -12,38 +21,13 @@ html, body {
   background-color: #fff;
 }
 
-main {
-  margin: auto 0;
-  width: 98%;
-  padding: 0px;
-  text-align: center;
-}
-
-main > h1 {
-  text-align: center;
-  font-size: 3.5em;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .middleColumn{
   background: rgba(8, 12, 9, 0.70);
-  margin: auto;
-  Padding: 20px;
-  height:980px;
+  Padding: 30px;
   text-align:center;
-  width: 400px;
   display: block;
+
 }
 
 
@@ -68,7 +52,7 @@ main > h1 {
 .titleMain{
   color: var(--Mtbeds-Green, #B6DDBD);
   text-align: center;
-  font-family: "Ivy Mode";
+  font-family: 'ivy_modesemibold';
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
@@ -84,23 +68,14 @@ main > h1 {
   font-weight: 300;
   line-height: normal;
   letter-spacing: 7.5px;
-  height:400px;
   padding-top:200px;
-}
-
-.wrapper{
-  width:100%;
-  margin: auto;
-  position: absolute;
 }
 
 .image-container {
   position: relative;
-
   
   img {
     position: absolute;
-    height: 1024px;
 
     animation-name: multiple-image-crossfade;
     animation-timing-function: ease-in-out;
